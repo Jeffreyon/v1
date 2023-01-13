@@ -1,20 +1,20 @@
 import React from "react";
-import ProjectCard from "./components/ProjectCard";
-import image from "./assets/profile.jpg";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import ProjectList from "./components/ProjectList";
+import Footer from "./components/Footer";
 
 function App() {
-    let projectDetails = {
-        projectType: "Experimental",
-        title: "Resume Generator",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi",
-        repoLink: "https://github.com/jeffreyon/cv-generator",
-        liveLink: "https://example.com",
-        tags: ["React", "TailwindCSS"],
-        caseStudyLink: "https://example.com",
-        imageUrl: image,
-    };
-    return <ProjectCard {...projectDetails} />;
+    return (
+        <div className="text-slate-800 overflow-x-hidden">
+            <Navbar />
+            <div className=" max-w-6xl mx-auto px-6 sm:px-3">
+                <Header />
+                <ProjectList />
+                <Footer />
+            </div>
+        </div>
+    );
 }
 
 export default App;
