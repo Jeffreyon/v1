@@ -1,4 +1,5 @@
 import resume_generator_image from "../assets/resume-generator.png";
+import keybase from "../assets/keybase.jpeg";
 
 const projects = [
     {
@@ -17,7 +18,7 @@ const projects = [
         projectType: "Experimental",
         title: "Keybase",
         description:
-            "I built an accommodation booking platform for my finals project taking inspiration from AirBnB and Uniplaces. It was built using NodeJS & ExpressJS server rendering with Handlebars. It also handles payments with a Paystack integration",
+            "I built an accommodation booking platform for my finals project taking inspiration from AirBnB and Uniplaces. It was built on NodeJS using an ExpressJS server rendering pages with Handlebars. It also handles payments with a Paystack integration.",
         repoLink: "https://github.com/Jeffreyon/final-year-project",
         liveLink: "https://server-au3c.onrender.com/",
         tags: [
@@ -27,7 +28,7 @@ const projects = [
             "Handlebars",
             "TailwindCSS",
         ],
-        imageUrl: resume_generator_image,
+        imageUrl: keybase,
     },
 ];
 

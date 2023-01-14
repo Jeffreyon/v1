@@ -68,10 +68,11 @@ function Header() {
                 <div className="mt-10 md:mt-0 flex flex-col gap-6">
                     <h3 className="font-bold text-3xl">About me</h3>
                     <p className="max-w-xl">
-                        Due to my experience across Design and Web Technology, I
-                        can contribute to cross-functional teams shipping
-                        profitable products that scale without losing context
-                        while collaborating.
+                        As a design developer, I can contribute to
+                        cross-functional teams shipping profitable products that
+                        scale, without losing context while collaborating. When
+                        i'm not working, I play basketball and try various
+                        random things that interest me.
                     </p>
                     <div>
                         <p className="font-semibold text-slate-600 uppercase tracking-wider text-sm">

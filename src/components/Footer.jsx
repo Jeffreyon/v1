@@ -11,8 +11,8 @@ function Footer() {
                 </h1>
                 <p className="mt-6 max-w-lg mx-auto">
                     I’m currently open to new work opportunities and
-                    collaborations. If you think i'd be a good fit for a role or
-                    job, reach out to me. Thanks
+                    collaborations. If you think I am a good fit for a role or
+                    job, please reach out to me. Thanks
                 </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 justify-center mt-10">
