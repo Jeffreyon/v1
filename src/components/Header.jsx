@@ -1,7 +1,7 @@
 import LinkButton from "./LinkButton";
 import Pill from "./Pill";
 import profileImage from "../assets/profile.jpg";
-import resumeLink from "../assets/resume-jeffrey-onuigbo.pdf";
+import resumeLink from "../assets/Resume-Jeffrey-Onuigbo.pdf";
 
 function Header() {
     const techUsed = [

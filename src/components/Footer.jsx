@@ -1,6 +1,6 @@
 import LinkButton from "./LinkButton";
 import IconLink from "./IconLink";
-import resumeLink from "../assets/resume-jeffrey-onuigbo.pdf";
+import resumeLink from "../assets/Resume-Jeffrey-Onuigbo.pdf";
 
 function Footer() {
     return (
