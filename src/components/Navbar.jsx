@@ -1,5 +1,5 @@
 import LinkButton from "./LinkButton";
-import resumeLink from "../assets/resume-jeffrey-onuigbo.pdf";
+import resumeLink from "../assets/Resume-Jeffrey-Onuigbo.pdf";
 import LinkRegular from "./LinkRegular";
 import { useState } from "react";
 
